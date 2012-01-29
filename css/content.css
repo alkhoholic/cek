@@ -1,0 +1,214 @@
+.content
+{
+    height:300px;
+    
+    height:700px;
+}
+.content_profile
+{
+margin-bottom: 3px;
+padding: 22px;
+text-align: center;
+height: 500px;
+}
+.profile img
+{
+box-shadow: 3px 3px 15px white;
+}
+
+/* DEPRECATED FILE */
+
+
+/* this makes it possible to add next button beside scrollable */
+.scrollable {
+float:left;
+}
+
+/* prev, next, prevPage and nextPage buttons */
+a.prev, a.next, a.prevPage, a.nextPage {
+display:block;
+width:18px;
+height:18px;
+background:url(../img/scrollable/arrow/left.png) no-repeat;
+float:left;
+margin:43px 10px;
+cursor:pointer;
+font-size:1px;
+}
+
+/* mouseover state */
+a.prev:hover, a.next:hover, a.prevPage:hover, a.nextPage:hover {
+background-position:0px -18px;
+}
+
+/* disabled navigational button */
+a.disabled {
+visibility:hidden !important;
+}
+
+/* next button uses another background image */
+a.next, a.nextPage {
+background-image:url(../img/scrollable/arrow/right.png);
+clear:right;
+}
+
+
+
+/*********** navigator ***********/
+
+
+/* position and dimensions of the navigator */
+.navi {
+margin-left:328px;
+width:200px;
+height:20px;
+}
+
+
+/* items inside navigator */
+.navi a {
+width:8px;
+height:8px;
+float:left;
+margin:3px;
+background:url(../img/scrollable/arrow/navigator.png) 0 0 no-repeat;
+display:block;
+font-size:1px;
+}
+
+/* mouseover state */
+.navi a:hover {
+background-position:0 -8px;
+}
+
+/* active state (current page state) */
+.navi a.active {
+background-position:0 -15px;
+}
+
+/* main vertical scroll */
+#main {
+position:relative;
+overflow:hidden;
+height: 450px;
+}
+
+/* root element for pages */
+#pages {
+position:absolute;
+height:20000em;
+}
+
+/* single page */
+.page {
+padding:10px;
+height: 600px;
+width:720px;
+}
+
+/* root element for horizontal scrollables */
+.scrollable {
+position:relative;
+overflow:hidden;
+width: 510px;
+height: 450px;
+}
+
+/* root element for scrollable items */
+.scrollable .items {
+width:20000em;
+position:absolute;
+clear:both;
+}
+
+/* single scrollable item */
+.item {
+float:left;
+cursor:pointer;
+width:500px;
+height:450px;
+padding:10px;
+}
+
+/* main navigator */
+#main_navi {
+float:left;
+padding:0px !important;
+margin:0px !important;
+}
+
+#main_navi li {
+background-color:none;
+border-top:1px solid #666;
+clear:both;
+color:black;
+font-size:12px;
+height:75px;
+list-style-type:none;
+padding:10px;
+width:190px;
+cursor:pointer;
+}
+
+#main_navi li:hover {
+
+font-size: 13px;
+color: blueviolet
+
+}
+
+#main_navi li.active {
+background-color:none;
+}
+
+#main_navi img {
+float:left;
+margin-right:10px;
+height:100px;
+width: 100px;
+}
+
+#main_navi strong {
+display:block;
+}
+
+#main div.navi {
+margin-left:250px;
+cursor:pointer;
+}
+.item ul li img
+{
+height: 100px;
+width: 100px;
+display: inline;
+}
+.item ul
+{
+margin: 0;
+padding: 0;
+height: 384px
+}
+.item ul li
+{
+list-style: none;
+border-bottom: 2px solid black;
+text-align: left;
+opacity: 0.4;
+}
+.item ul li:hover
+{
+    opacity:1;
+}
+
+.item ul li p
+{
+display: inline-block;
+color: black;
+font-weight: bold;
+margin-bottom: 10px;
+margin-left: 30px
+}
+.item ul li table
+{
+    display: none
+}
