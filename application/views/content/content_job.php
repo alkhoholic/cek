@@ -8,10 +8,10 @@
             $(".navlist ul li a:eq(1)").mouseover(function(){
                 $(this).css({
                     "font-size":"30px"
-                }); 
+                });
                 $(".navlist ul li a:eq(1)").mouseout(function(){
                     $(this).css({
-                        "font-size":"30px" 
+                        "font-size":"30px"
                     });
                 });
             });
@@ -50,17 +50,53 @@
 
         });
     </script>
-<!--start scroll honda-->
+    <!--start scroll honda-->
     <script>
         $(document).ready(function(){
             var p0 = $(".item p:eq(0)");
             var p1 = $(".item p:eq(1)");
             var p2 = $(".item p:eq(2)");
+            
+            var p3 = $(".item p#p1");
+            var p4 = $(".item p#p2");
+            var p5 = $(".item p#p3");
+            
+            var p6 = $(".item p#p4");
+            var p7 = $(".item p#p5");
+            var p8 = $(".item p#p6");
+            
+            var p9 = $(".item p#p7");
+            var p10 = $(".item p#p8");
+            var p11 = $(".item p#p9");
+            
+            var p12 = $(".item p#p10");
+            var p13 = $(".item p#p11");
+            var p14 = $(".item p#p12");
+            
+            
         
-            var el0 = $(".item ul ul.as:eq(0)");
+            var el0 = $(".item ul.as:eq(0)");
             var el1 = $(".item ul.as:eq(1)");
             var el2 = $(".item ul.as:eq(2)");
-      
+            
+            var el3 = $(".item ul.as1:eq(0)");
+            var el4 = $(".item ul.as1:eq(1)");
+            var el5 = $(".item ul.as1:eq(2)");
+            
+            var el6 = $(".item ul.as2:eq(0)");
+            var el7 = $(".item ul.as2:eq(1)");
+            var el8 = $(".item ul.as2:eq(2)");
+            
+            var el9 = $(".item ul.as3:eq(0)");
+            var e20 = $(".item ul.as3:eq(1)");
+            var e21 = $(".item ul.as3:eq(2)");
+            
+            var e22 = $(".item ul.as4:eq(0)");
+            var e23 = $(".item ul.as4:eq(1)");
+            var e24 = $(".item ul.as4:eq(2)");
+            
+            
+       
             $(p0).click(function(){
                 $(el0).slideToggle();
             });
@@ -70,11 +106,49 @@
             $(p2).click(function(){
                 $(el2).slideToggle();
             });
+            $(p3).click(function(){
+                $(el3).slideToggle();
+            });
+            $(p4).click(function(){
+                $(el4).slideToggle();
+            });
+            $(p5).click(function(){
+                $(el5).slideToggle();
+            });
+            $(p6).click(function(){
+                $(el6).slideToggle();
+            });
+            $(p7).click(function(){
+                $(el7).slideToggle();
+            });
+            $(p8).click(function(){
+                $(el8).slideToggle();
+            });
+            $(p9).click(function(){
+                $(el9).slideToggle();
+            });
+            $(p10).click(function(){
+                $(e20).slideToggle();
+            });
+            $(p11).click(function(){
+                $(e21).slideToggle();
+            });
+            $(p12).click(function(){
+                $(e22).slideToggle();
+            });
+            $(p13).click(function(){
+                $(e23).slideToggle();
+            });
+            $(p14).click(function(){
+                $(e24).slideToggle();
+            });
+            
+            
         });
     </script>
-<!--    end scroll honda-->
+    <!-- end scroll honda-->
     <script>
-    
+        <!--ki ra sah akeh2 ngene..eneng jquery selektor sing lebih singkat,,goleki jquery selektor "gt"-->
         $(document).ready(function(){
             var i0 =$(".as img:eq(0)");
             var i1 =$(".as img:eq(1)");
@@ -344,7 +418,6 @@
                     "border":"none"
                 });
             });
-            
         });
     </script>
     <div class="content">
@@ -378,8 +451,8 @@
                     <strong>MITSUBISHI</strong>
                 </li>
                 <li>
-                    <img src="<?php echo base_url(); ?>image/menu/Mitsubishi.png" />
-                    <strong>Toyota</strong>
+                    <img src="<?php echo base_url(); ?>image/menu/toyota.png" />
+                    <strong>TOYOTA</strong>
                 </li>
             </ul>
 
@@ -413,7 +486,6 @@
                                                     <img src="<?php echo base_url(); ?>image/content/honda/maestro/4.jpg"/>
                                                     &nbsp;<img src="<?php echo base_url(); ?>image/content/honda/maestro/8.jpg"/>
                                                     &nbsp;<img src="<?php echo base_url(); ?>image/content/honda/maestro/6.jpg"/>
-                                                    
 
                                                 </li>
 
@@ -472,7 +544,6 @@
                     </div>
 
                     <!-- page #2 -->
-                    
                     <div class="page">
 
                         <!-- sub navigator #1 -->
@@ -488,16 +559,14 @@
                                 <div class="item">
                                     <ul>
                                         <li>
-                                            <p>MAESTRO</p>
-                                            <ul class="as" style="display: none;">
+                                            <p id="p1">JIMNY</p>
+                                            <ul class="as1" style="display: none;">
                                                 <li>
-                                                    <img src="<?php echo base_url(); ?>image/content/honda/maestro/1.jpg"/>
-                                                    &nbsp;<img src="<?php echo base_url(); ?>image/content/honda/maestro/2.jpg"/>
-                                                    &nbsp;<img src="<?php echo base_url(); ?>image/content/honda/maestro/7.jpg"/><br/>
-                                                    <img src="<?php echo base_url(); ?>image/content/honda/maestro/4.jpg"/>
-                                                    &nbsp;<img src="<?php echo base_url(); ?>image/content/honda/maestro/8.jpg"/>
-                                                    &nbsp;<img src="<?php echo base_url(); ?>image/content/honda/maestro/6.jpg"/>
-                                                    
+                                                    <img src="<?php echo base_url(); ?>image/content/suzuki/jimmy/1.jpg"/>
+                                                    &nbsp;<img src="<?php echo base_url(); ?>image/content/suzuki/jimmy/2.jpg"/>
+                                                    &nbsp;<img src="<?php echo base_url(); ?>image/content/suzuki/jimmy/3.jpg"/><br/>
+                                                    <img src="<?php echo base_url(); ?>image/content/suzuki/jimmy/4.jpg"/>
+
 
                                                 </li>
 
@@ -505,8 +574,8 @@
 
                                         </li>
                                         <li>
-                                            <p>GENIO</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p2">KARIMUN</p>
+                                            <ul class="as1" style="display: none">
                                                 <li>
                                                     as
                                                 </li>
@@ -523,8 +592,8 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <p>CIVIC WONDER</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p3">KATANA</p>
+                                            <ul class="as1" style="display: none">
                                                 <li>
                                                     as
                                                 </li>
@@ -570,20 +639,23 @@
                                 <div class="item">
                                     <ul>
                                         <li>
-                                            <p>maestro</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p4">STARLET</p>
+                                            <ul class="as2" style="display: none">
                                                 <li>
-                                                    <img src="<?php echo base_url(); ?>image/content/maestro/Maestro.jpg"/>
-                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/maestro/Maestro1.jpg"/>
-                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/maestro/Maestro2.jpg"/>
+                                                    <img src="<?php echo base_url(); ?>image/content/daihatsu/starlet/1.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/daihatsu/starlet/2.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/daihatsu/starlet/3.jpg"/><br/>
+                                                    <img src="<?php echo base_url(); ?>image/content/daihatsu/starlet/4.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/daihatsu/starlet/5.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/daihatsu/starlet/6.jpg"/>
                                                 </li>
 
                                             </ul>
 
                                         </li>
                                         <li>
-                                            <p>genio</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p5">ESPASS</p>
+                                            <ul class="as2" style="display: none">
                                                 <li>
                                                     as
                                                 </li>
@@ -600,8 +672,8 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <p>civic wonder</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p6">ZEBRA</p>
+                                            <ul class="as2" style="display: none">
                                                 <li>
                                                     as
                                                 </li>
@@ -647,8 +719,8 @@
                                 <div class="item">
                                     <ul>
                                         <li>
-                                            <p>maestro</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p7">L300 (bensin)</p>
+                                            <ul class="as3" style="display: none">
                                                 <li>
                                                     <img src="<?php echo base_url(); ?>image/content/maestro/Maestro.jpg"/>
                                                     &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/maestro/Maestro1.jpg"/>
@@ -659,8 +731,8 @@
 
                                         </li>
                                         <li>
-                                            <p>genio</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p8">L300 (diesel)</p>
+                                            <ul class="as3" style="display: none">
                                                 <li>
                                                     as
                                                 </li>
@@ -677,8 +749,8 @@
                                             </ul>
                                         </li>
                                         <li>
-                                            <p>civic wonder</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p9">JET STAR</p>
+                                            <ul class="as3" style="display: none">
                                                 <li>
                                                     as
                                                 </li>
@@ -723,38 +795,39 @@
                                 <div class="item">
                                     <ul>
                                         <li>
-                                            <p>maestro</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p10">TWINCAME GT</p>
+                                            <ul class="as4" style="display: none">
                                                 <li>
-                                                    <img src="<?php echo base_url(); ?>image/content/maestro/Maestro.jpg"/>
-                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/maestro/Maestro1.jpg"/>
-                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/maestro/Maestro2.jpg"/>
+                                                    <img src="<?php echo base_url(); ?>image/content/toyota/twincameGT/1.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/toyota/twincameGT/2.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/toyota/twincameGT/3.jpg"/><br/>
+                                                    <img src="<?php echo base_url(); ?>image/content/toyota/twincameGT/4.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/toyota/twincameGT/5.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/toyota/twincameGT/6.jpg"/>
                                                 </li>
 
                                             </ul>
 
                                         </li>
                                         <li>
-                                            <p>genio</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p11">COROLLA DX ('83)</p>
+                                            <ul class="as4" style="display: none">
                                                 <li>
-                                                    as
+                                                    <img src="<?php echo base_url(); ?>image/content/toyota/corola/1.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/toyota/corola/2.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/toyota/corola/3.jpg"/><br/>
+                                                    <img src="<?php echo base_url(); ?>image/content/toyota/corola/4.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/toyota/corola/5.jpg"/>
+                                                    &nbsp;&nbsp;<img src="<?php echo base_url(); ?>image/content/toyota/corola/6.jpg"/>
+
                                                 </li>
-                                                <li>
-                                                    as
-                                                </li>
-                                                <li>
-                                                    as
-                                                </li>
-                                                <li>
-                                                    as
-                                                </li>
+
 
                                             </ul>
                                         </li>
                                         <li>
-                                            <p>civic wonder</p>
-                                            <ul class="as" style="display: none">
+                                            <p id="p12">KIJANG SUPER</p>
+                                            <ul class="as4" style="display: none">
                                                 <li>
                                                     as
                                                 </li>
@@ -790,6 +863,6 @@
 
             </div>
 
-        </div>    
+        </div>
 
     </div>

@@ -73,10 +73,22 @@
             border:2px solid purple;
             max-height: 165px;
             max-width: 400;
-               color: blueviolet
+            color: blueviolet
         }
 
-
+        #dtabel table
+        {
+            margin: 0;
+            padding: 0;
+        }
+        #dtabel table tr
+        {
+            border: none;
+        }
+        #dtabel table tr td
+        {
+            border: 1px solid black;
+        }
     </style>
     <div class="content">
         <?php
@@ -98,15 +110,25 @@
         echo'</div>';
         ?>
         <div id="dtabel">
-
+            <?php
+            echo '<table>';
+            echo '<tr><td style="border: none">';
+            ?>
             <?php echo '<textarea style="height:165px;width:400px;">  '; ?>
+            
             <?php foreach ($data as $r): ?>
-                
-                <?php echo 'Username: ' . $r->username . ''; ?>   
 
-                <?php echo 'comment : ' . $r->komentar . ''; ?>
+
+               <?php echo 'Username: ' . $r->username . '';?>
+
+                <?php echo 'comment : ' . $r->komentar . '';?>
+
             <?php endforeach; ?> 
+            
             <?php echo '</textarea>'; ?>
-
+                <?php
+            echo '</td></tr>';
+            echo '</table>';
+            ?>
         </div>
     </div>

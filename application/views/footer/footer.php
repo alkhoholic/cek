@@ -1,5 +1,7 @@
-<div class="footer">
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa  
+<div class="footer" >
+    
+</div>   
+
 </div>
 </body>
 </html>
